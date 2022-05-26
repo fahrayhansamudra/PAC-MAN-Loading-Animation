@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+.container {
+    width: 550px;
+    height: 121px;
+    border: 4px solid blue;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    animation: pac-man 1s infinite;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 43px;
+    margin-left: 55px;
+  
+}
+
+.dot1 {
+    animation: dot1 1000ms infinite;
+}
+
+.dot2 {
+    animation: dot2 1000ms infinite;
+}
+
+.dot3 {
+    animation: dot3 1009ms infinite;
+}
+
+.dot4 {
+    animation: dot4 1010ms infinite;
+}
+
+.dot5 {
+    animation: dot5 1050ms infinite;
+}
+
+
+@keyframes pac-man {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translate(440px);
+    }
+}
+
+@keyframes dot1 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.001;
+    }
+    100% {
+        opacity: 0.001;
+    }
+}
+
+@keyframes dot2 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.001;
+    }
+    100% {
+        opacity: 0.001;
+    }
+}
+
+@keyframes dot3 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.001;
+    }
+}
+
+@keyframes dot4 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.001;
+    }
+}
+
+@keyframes dot5 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.001;
+    }
+}
